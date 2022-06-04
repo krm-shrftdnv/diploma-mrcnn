@@ -1,0 +1,36 @@
+<annotation>
+    <filename>90.jpg</filename>
+    <path>dataset/images/90.jpg</path>
+<object>
+    <type>plate</type>
+    <bndbox>
+    <point>
+    <x>460</x>
+    <y>178</y>
+</point><point>
+    <x>464</x>
+    <y>266</y>
+</point><point>
+    <x>586</x>
+    <y>275</y>
+</point><point>
+    <x>580</x>
+    <y>185</y>
+</point></bndbox>
+</object><object>
+    <type>plate</type>
+    <bndbox>
+    <point>
+    <x>288</x>
+    <y>578</y>
+</point><point>
+    <x>290</x>
+    <y>792</y>
+</point><point>
+    <x>715</x>
+    <y>797</y>
+</point><point>
+    <x>717</x>
+    <y>588</y>
+</point></bndbox>
+</object></annotation>

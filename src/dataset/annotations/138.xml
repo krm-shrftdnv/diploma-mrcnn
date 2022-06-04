@@ -1,0 +1,20 @@
+<annotation>
+    <filename>138.jpg</filename>
+    <path>dataset/images/138.jpg</path>
+<object>
+    <type>plate</type>
+    <bndbox>
+    <point>
+    <x>325</x>
+    <y>514</y>
+</point><point>
+    <x>330</x>
+    <y>777</y>
+</point><point>
+    <x>699</x>
+    <y>761</y>
+</point><point>
+    <x>694</x>
+    <y>519</y>
+</point></bndbox>
+</object></annotation>

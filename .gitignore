@@ -1,0 +1,14 @@
+.idea
+venv
+Mask_RCNN
+mask_rcnn.egg-info
+adelya
+src/__pycache__
+src/dataset/not_annotated_images
+src/dataset/resized_originals
+src/dataset/annotations/json
+src/json_to_xml_annotations.py
+src/mask_rcnn_door_cfg_0005.h5
+src/mask_rcnn_train_0010.h5
+src/mask_rcnn_coco.h5
+src/resize_images.py

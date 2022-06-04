@@ -1,0 +1,36 @@
+<annotation>
+    <filename>200.jpg</filename>
+    <path>dataset/images/200.jpg</path>
+<object>
+    <type>door</type>
+    <bndbox>
+    <point>
+    <x>417</x>
+    <y>338</y>
+</point><point>
+    <x>418</x>
+    <y>388</y>
+</point><point>
+    <x>526</x>
+    <y>383</y>
+</point><point>
+    <x>525</x>
+    <y>335</y>
+</point></bndbox>
+</object><object>
+    <type>door</type>
+    <bndbox>
+    <point>
+    <x>231</x>
+    <y>122</y>
+</point><point>
+    <x>317</x>
+    <y>1031</y>
+</point><point>
+    <x>691</x>
+    <y>992</y>
+</point><point>
+    <x>681</x>
+    <y>114</y>
+</point></bndbox>
+</object></annotation>

@@ -1,0 +1,84 @@
+<annotation>
+    <filename>131.jpg</filename>
+    <path>dataset/images/131.jpg</path>
+<object>
+    <type>plate</type>
+    <bndbox>
+    <point>
+    <x>481</x>
+    <y>252</y>
+</point><point>
+    <x>482</x>
+    <y>282</y>
+</point><point>
+    <x>510</x>
+    <y>284</y>
+</point><point>
+    <x>510</x>
+    <y>256</y>
+</point></bndbox>
+</object><object>
+    <type>plate</type>
+    <bndbox>
+    <point>
+    <x>410</x>
+    <y>280</y>
+</point><point>
+    <x>415</x>
+    <y>345</y>
+</point><point>
+    <x>577</x>
+    <y>345</y>
+</point><point>
+    <x>579</x>
+    <y>285</y>
+</point></bndbox>
+</object><object>
+    <type>plate</type>
+    <bndbox>
+    <point>
+    <x>240</x>
+    <y>332</y>
+</point><point>
+    <x>245</x>
+    <y>428</y>
+</point><point>
+    <x>410</x>
+    <y>430</y>
+</point><point>
+    <x>409</x>
+    <y>343</y>
+</point></bndbox>
+</object><object>
+    <type>plate</type>
+    <bndbox>
+    <point>
+    <x>583</x>
+    <y>337</y>
+</point><point>
+    <x>587</x>
+    <y>430</y>
+</point><point>
+    <x>740</x>
+    <y>425</y>
+</point><point>
+    <x>740</x>
+    <y>338</y>
+</point></bndbox>
+</object><object>
+    <type>door</type>
+    <bndbox>
+    <point>
+    <x>256</x>
+    <y>1256</y>
+</point><point>
+    <x>734</x>
+    <y>1205</y>
+</point><point>
+    <x>779</x>
+    <y>75</y>
+</point><point>
+    <x>192</x>
+    <y>53</y>
+</point></bndbox>
+</object></annotation>

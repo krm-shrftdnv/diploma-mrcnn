@@ -1,0 +1,52 @@
+<annotation>
+    <filename>110.jpg</filename>
+    <path>dataset/images/110.jpg</path>
+<object>
+    <type>plate</type>
+    <bndbox>
+    <point>
+    <x>393</x>
+    <y>526</y>
+</point><point>
+    <x>397</x>
+    <y>615</y>
+</point><point>
+    <x>571</x>
+    <y>631</y>
+</point><point>
+    <x>567</x>
+    <y>561</y>
+</point></bndbox>
+</object><object>
+    <type>plate</type>
+    <bndbox>
+    <point>
+    <x>394</x>
+    <y>628</y>
+</point><point>
+    <x>399</x>
+    <y>720</y>
+</point><point>
+    <x>575</x>
+    <y>721</y>
+</point><point>
+    <x>571</x>
+    <y>644</y>
+</point></bndbox>
+</object><object>
+    <type>door</type>
+    <bndbox>
+    <point>
+    <x>87</x>
+    <y>157</y>
+</point><point>
+    <x>61</x>
+    <y>1274</y>
+</point><point>
+    <x>761</x>
+    <y>1276</y>
+</point><point>
+    <x>692</x>
+    <y>402</y>
+</point></bndbox>
+</object></annotation>

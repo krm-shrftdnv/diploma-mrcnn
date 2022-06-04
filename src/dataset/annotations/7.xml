@@ -1,0 +1,20 @@
+<annotation>
+    <filename>7.jpg</filename>
+    <path>dataset/images/7.jpg</path>
+<object>
+    <type>door</type>
+    <bndbox>
+    <point>
+    <x>526</x>
+    <y>1274</y>
+</point><point>
+    <x>122</x>
+    <y>1248</y>
+</point><point>
+    <x>41</x>
+    <y>-2</y>
+</point><point>
+    <x>560</x>
+    <y>0</y>
+</point></bndbox>
+</object></annotation>
