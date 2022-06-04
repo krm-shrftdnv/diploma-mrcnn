@@ -16,6 +16,7 @@ class TrainConfig(Config):
     NUM_CLASSES = 1 + 2
     GPU_COUNT = 1
     STEPS_PER_EPOCH = 10
+    IMAGES_PER_GPU = 1
 
 
 class InferenceConfig(Config):
