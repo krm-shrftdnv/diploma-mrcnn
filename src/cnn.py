@@ -2,6 +2,7 @@ from os import listdir
 from xml.etree import ElementTree
 
 import numpy as np
+import pathlib
 import skimage
 from PIL import Image
 from numpy import asarray
@@ -9,6 +10,9 @@ from numpy import zeros
 
 from mrcnn.config import Config
 from mrcnn.utils import Dataset
+
+
+current_dir = pathlib.Path.cwd()
 
 
 class TrainConfig(Config):
@@ -27,7 +31,7 @@ class InferenceConfig(Config):
 
 
 def get_image_sizes(path):
-    im = Image.open(path)
+    im = Image.open(f'{current_dir}/src/{path}')
     return im.width, im.height
 
 
