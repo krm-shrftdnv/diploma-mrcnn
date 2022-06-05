@@ -14,7 +14,7 @@ from mrcnn.model import load_image_gt, MaskRCNN
 from mrcnn.model import log
 from mrcnn.model import mold_image
 from mrcnn.utils import compute_ap
-from src.cnn import OfficeObjectDataset, InferenceConfig
+from cnn import OfficeObjectDataset, InferenceConfig
 
 current_dir = pathlib.Path.cwd()
 # MODEL_PATH = 'mask_rcnn_train_0010.h5'
