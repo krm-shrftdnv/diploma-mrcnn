@@ -18,7 +18,7 @@ from cnn import OfficeObjectDataset, InferenceConfig
 
 current_dir = pathlib.Path.cwd()
 # MODEL_PATH = 'mask_rcnn_train_0010.h5'
-MODEL_PATH = f'{current_dir}/src/models/train20220604T1650/mask_rcnn_train_0001.h5'
+MODEL_PATH = 'models/train20220604T1650/mask_rcnn_train_0001.h5'
 
 
 def plot_actual_vs_predicted(dataset, model, cfg, n_images=5):
@@ -86,7 +86,7 @@ cfg = InferenceConfig()
 cfg.display()
 model = MaskRCNN(mode='inference', model_dir=f'{current_dir}/src/models/', config=cfg)
 
-model.load_weights(MODEL_PATH, by_name=True)
+model.load_weights(f'{current_dir}/src/MODEL_PATH', by_name=True)
 
 image_id = random.choice(test_set.image_ids)
 image, image_meta, gt_class_id, gt_bbox, gt_mask = \
