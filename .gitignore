@@ -12,3 +12,6 @@ src/mask_rcnn_door_cfg_0005.h5
 src/mask_rcnn_train_0010.h5
 src/mask_rcnn_coco.h5
 src/resize_images.py
+build
+dist
+*.egg-info
