@@ -12,10 +12,7 @@ python -m venv путь/до/директории/проекта/venv
 ```shell
 pip install -r requirements.txt
 ```
-tensorflow - v1.15.0
-keras - v2.3.4
-tensorflow-gpu - v.1.15.0
-5. 
+5.
 ```shell
 python src/count_gpu.py
 ```
