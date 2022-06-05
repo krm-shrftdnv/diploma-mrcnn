@@ -7,7 +7,7 @@ from PIL import Image
 from numpy import asarray
 from numpy import zeros
 
-from Mask_RCNN.mrcnn.config import Config
+from mrcnn.config import Config
 from mrcnn.utils import Dataset
 
 

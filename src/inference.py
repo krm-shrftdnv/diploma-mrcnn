@@ -1,3 +1,4 @@
+import pathlib
 import random
 
 import matplotlib.pyplot as plt
@@ -15,8 +16,9 @@ from mrcnn.model import mold_image
 from mrcnn.utils import compute_ap
 from src.cnn import OfficeObjectDataset, InferenceConfig
 
+current_dir = pathlib.Path.cwd()
 # MODEL_PATH = 'mask_rcnn_train_0010.h5'
-MODEL_PATH = 'models/train20220604T1650/mask_rcnn_train_0001.h5'
+MODEL_PATH = f'{current_dir}/src/models/train20220604T1650/mask_rcnn_train_0001.h5'
 
 
 def plot_actual_vs_predicted(dataset, model, cfg, n_images=5):
@@ -76,13 +78,13 @@ def get_ax(rows=1, cols=1, size=16):
 
 # load the test dataset
 test_set = OfficeObjectDataset(train_part=0.8)
-test_set.load_dataset('dataset', is_train=False)
+test_set.load_dataset(f'{current_dir}/src/dataset', is_train=False)
 test_set.prepare()
 print('Test: %d' % len(test_set.image_ids))
 
 cfg = InferenceConfig()
 cfg.display()
-model = MaskRCNN(mode='inference', model_dir='models/', config=cfg)
+model = MaskRCNN(mode='inference', model_dir=f'{current_dir}/src/models/', config=cfg)
 
 model.load_weights(MODEL_PATH, by_name=True)
 

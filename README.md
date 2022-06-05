@@ -8,11 +8,15 @@ git clone https://github.com/krm-shrftdnv/diploma-mrcnn.git
 ```shell
 python -m venv путь/до/директории/проекта/venv
 ```
-4. 
+4. Установить зависимости
 ```shell
 pip install -r requirements.txt
 ```
-5.
+5. 
+```shell
+python setup.py install
+```
+6. Проверить GPU
 ```shell
 python src/count_gpu.py
 ```
@@ -21,7 +25,7 @@ python src/count_gpu.py
 [Installing cuDNN on Windows](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html#install-windows)
 - [NVIDIA CUDA 10.0](https://developer.nvidia.com/cuda-10.0-download-archive)
 - [Zlib binaries](http://gnuwin32.sourceforge.net/downlinks/zlib-bin-zip.php)
-6. Заменить mask_rcnn_coco.h5.tmp на [mask_rcnn_coco.h5](https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5)
+6. **Заменить mask_rcnn_coco.h5.tmp на [mask_rcnn_coco.h5](https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5)**
 7. Если всё ок:
 ```shell
 python src/train.py
