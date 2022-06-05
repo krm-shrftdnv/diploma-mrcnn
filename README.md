@@ -19,7 +19,7 @@ python src/count_gpu.py
 Если есть предупреждения и не видит GPU - фиксим по варнингам:
 
 [Installing cuDNN on Windows](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html#install-windows)
-- [NVIDIA CUDA](https://developer.nvidia.com/cuda-10.0-download-archive)
+- [NVIDIA CUDA 10.0](https://developer.nvidia.com/cuda-10.0-download-archive)
 - [Zlib binaries](http://gnuwin32.sourceforge.net/downlinks/zlib-bin-zip.php)
 6. Заменить mask_rcnn_coco.h5.tmp на [mask_rcnn_coco.h5](https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5)
 7. Если всё ок:
